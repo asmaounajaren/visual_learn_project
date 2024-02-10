@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 import base64
 
+
+
 def create_emotion_pie_chart(csv_file):
     emotions = {}
     with open(csv_file, 'r') as file:
@@ -191,6 +193,14 @@ def analyze_engagement(csv_file):
         ]
 
     return recommendations
+
+def Get_images():
+    cur = mysql.connection.cursor()
+    cur.execute("SELECT image_path FROM session_image")
+    images = cur.fetchall()
+    cur.close()
+    
+
 
 # Example usage
 recommendations = analyze_engagement('merged_output.csv')
