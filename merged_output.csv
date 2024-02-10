@@ -1,0 +1,684 @@
+personne,emotion,pourcentage_emotion,niveau_dengagement,time_sequence
+Personne-1,fear,63,Engaged,frame_109945.csv
+Personne-2,sad,53,Engaged,frame_109945.csv
+Personne-3,neutral,68,Engaged,frame_109945.csv
+Personne-4,neutral,57,Engaged,frame_109945.csv
+Personne-5,sad,78,Engaged,frame_109945.csv
+Personne-6,neutral,62,Engaged,frame_109945.csv
+Personne-7,angry,100,Engaged,frame_109945.csv
+Personne-8,neutral,90,Not Engaged,frame_109945.csv
+Personne-9,sad,60,Not Engaged,frame_109945.csv
+Personne-10,fear,42,Engaged,frame_109945.csv
+Personne-11,sad,76,Not Engaged,frame_109945.csv
+Personne-12,fear,74,Engaged,frame_109945.csv
+Personne-13,sad,93,Engaged,frame_109945.csv
+Personne-14,angry,57,Engaged,frame_109945.csv
+Personne-15,neutral,87,Not Engaged,frame_109945.csv
+Personne-16,neutral,94,Engaged,frame_109945.csv
+Personne-17,fear,52,Engaged,frame_109945.csv
+Personne-18,sad,67,Engaged,frame_109945.csv
+Personne-1,fear,97,Engaged,frame_111944.csv
+Personne-2,sad,46,Engaged,frame_111944.csv
+Personne-3,sad,40,Engaged,frame_111944.csv
+Personne-4,angry,83,Not Engaged,frame_111944.csv
+Personne-5,sad,77,Engaged,frame_111944.csv
+Personne-6,sad,78,Engaged,frame_111944.csv
+Personne-7,fear,40,Engaged,frame_111944.csv
+Personne-8,angry,36,Engaged,frame_111944.csv
+Personne-9,happy,88,Engaged,frame_111944.csv
+Personne-10,sad,95,Not Engaged,frame_111944.csv
+Personne-11,angry,56,Not Engaged,frame_111944.csv
+Personne-12,neutral,77,Engaged,frame_111944.csv
+Personne-13,sad,89,Not Engaged,frame_111944.csv
+Personne-14,angry,69,Engaged,frame_111944.csv
+Personne-15,neutral,100,Engaged,frame_111944.csv
+Personne-16,neutral,67,Not Engaged,frame_111944.csv
+Personne-17,happy,100,Engaged,frame_111944.csv
+Personne-18,sad,58,Engaged,frame_111944.csv
+Personne-1,sad,56,Engaged,frame_113943.csv
+Personne-2,fear,49,Not Engaged,frame_113943.csv
+Personne-3,angry,79,Engaged,frame_113943.csv
+Personne-4,fear,95,Engaged,frame_113943.csv
+Personne-5,neutral,99,Engaged,frame_113943.csv
+Personne-6,angry,100,Engaged,frame_113943.csv
+Personne-7,sad,98,Not Engaged,frame_113943.csv
+Personne-8,sad,64,Engaged,frame_113943.csv
+Personne-9,neutral,70,Engaged,frame_113943.csv
+Personne-10,sad,97,Engaged,frame_113943.csv
+Personne-11,sad,75,Engaged,frame_113943.csv
+Personne-12,angry,62,Engaged,frame_113943.csv
+Personne-13,sad,78,Engaged,frame_113943.csv
+Personne-14,fear,84,Not Engaged,frame_113943.csv
+Personne-15,sad,94,Engaged,frame_113943.csv
+Personne-16,sad,100,Engaged,frame_113943.csv
+Personne-17,sad,81,Engaged,frame_113943.csv
+Personne-18,fear,60,Engaged,frame_113943.csv
+Personne-19,neutral,100,Engaged,frame_113943.csv
+Personne-20,sad,91,Engaged,frame_113943.csv
+Personne-21,angry,73,Engaged,frame_113943.csv
+Personne-1,fear,82,Not Engaged,frame_115942.csv
+Personne-2,happy,70,Not Engaged,frame_115942.csv
+Personne-3,fear,64,Engaged,frame_115942.csv
+Personne-4,happy,44,Engaged,frame_115942.csv
+Personne-5,sad,50,Engaged,frame_115942.csv
+Personne-6,sad,52,Engaged,frame_115942.csv
+Personne-7,neutral,65,Not Engaged,frame_115942.csv
+Personne-8,sad,76,Not Engaged,frame_115942.csv
+Personne-9,neutral,86,Engaged,frame_115942.csv
+Personne-10,happy,60,Engaged,frame_115942.csv
+Personne-11,neutral,64,Not Engaged,frame_115942.csv
+Personne-12,sad,85,Engaged,frame_115942.csv
+Personne-13,sad,91,Engaged,frame_115942.csv
+Personne-14,surprise,91,Engaged,frame_115942.csv
+Personne-15,neutral,68,Engaged,frame_115942.csv
+Personne-16,neutral,83,Engaged,frame_115942.csv
+Personne-17,sad,95,Engaged,frame_115942.csv
+Personne-18,angry,65,Engaged,frame_115942.csv
+Personne-19,happy,87,Engaged,frame_115942.csv
+Personne-1,sad,53,Engaged,frame_117941.csv
+Personne-2,happy,59,Engaged,frame_117941.csv
+Personne-3,fear,74,Not Engaged,frame_117941.csv
+Personne-4,sad,47,Engaged,frame_117941.csv
+Personne-5,neutral,63,Not Engaged,frame_117941.csv
+Personne-6,neutral,94,Engaged,frame_117941.csv
+Personne-7,sad,57,Engaged,frame_117941.csv
+Personne-8,neutral,35,Not Engaged,frame_117941.csv
+Personne-9,fear,66,Engaged,frame_117941.csv
+Personne-10,sad,72,Engaged,frame_117941.csv
+Personne-11,angry,85,Engaged,frame_117941.csv
+Personne-12,sad,100,Not Engaged,frame_117941.csv
+Personne-13,sad,59,Engaged,frame_117941.csv
+Personne-14,angry,67,Engaged,frame_117941.csv
+Personne-15,sad,83,Engaged,frame_117941.csv
+Personne-16,angry,57,Not Engaged,frame_117941.csv
+Personne-17,neutral,36,Engaged,frame_117941.csv
+Personne-18,sad,95,Engaged,frame_117941.csv
+Personne-19,happy,55,Engaged,frame_117941.csv
+Personne-20,neutral,71,Engaged,frame_117941.csv
+Personne-1,sad,99,Engaged,frame_1999.csv
+Personne-2,sad,97,Engaged,frame_1999.csv
+Personne-3,sad,63,Engaged,frame_1999.csv
+Personne-4,sad,84,Not Engaged,frame_1999.csv
+Personne-5,neutral,58,Not Engaged,frame_1999.csv
+Personne-6,sad,96,Not Engaged,frame_1999.csv
+Personne-7,angry,89,Not Engaged,frame_1999.csv
+Personne-8,angry,83,Not Engaged,frame_1999.csv
+Personne-9,fear,65,Not Engaged,frame_1999.csv
+Personne-10,sad,51,Not Engaged,frame_1999.csv
+Personne-11,sad,89,Not Engaged,frame_1999.csv
+Personne-12,fear,98,Not Engaged,frame_1999.csv
+Personne-13,sad,72,Engaged,frame_1999.csv
+Personne-14,fear,64,Not Engaged,frame_1999.csv
+Personne-15,neutral,69,Engaged,frame_1999.csv
+Personne-16,sad,87,Engaged,frame_1999.csv
+Personne-17,sad,97,Engaged,frame_1999.csv
+Personne-1,sad,100,Engaged,frame_23988.csv
+Personne-2,sad,79,Engaged,frame_23988.csv
+Personne-3,sad,65,Engaged,frame_23988.csv
+Personne-4,neutral,94,Not Engaged,frame_23988.csv
+Personne-5,neutral,73,Engaged,frame_23988.csv
+Personne-6,surprise,94,Engaged,frame_23988.csv
+Personne-7,neutral,95,Engaged,frame_23988.csv
+Personne-8,sad,82,Not Engaged,frame_23988.csv
+Personne-9,neutral,63,Not Engaged,frame_23988.csv
+Personne-10,neutral,56,Engaged,frame_23988.csv
+Personne-11,neutral,44,Engaged,frame_23988.csv
+Personne-12,sad,97,Engaged,frame_23988.csv
+Personne-13,neutral,95,Engaged,frame_23988.csv
+Personne-14,sad,82,Engaged,frame_23988.csv
+Personne-15,angry,74,Engaged,frame_23988.csv
+Personne-16,sad,96,Engaged,frame_23988.csv
+Personne-17,sad,40,Engaged,frame_23988.csv
+Personne-1,neutral,77,Engaged,frame_25987.csv
+Personne-2,neutral,89,Engaged,frame_25987.csv
+Personne-3,sad,98,Engaged,frame_25987.csv
+Personne-4,surprise,52,Engaged,frame_25987.csv
+Personne-5,sad,66,Engaged,frame_25987.csv
+Personne-6,happy,74,Engaged,frame_25987.csv
+Personne-7,neutral,99,Engaged,frame_25987.csv
+Personne-8,sad,77,Engaged,frame_25987.csv
+Personne-9,sad,100,Engaged,frame_25987.csv
+Personne-10,sad,97,Engaged,frame_25987.csv
+Personne-11,angry,53,Engaged,frame_25987.csv
+Personne-12,happy,100,Engaged,frame_25987.csv
+Personne-13,neutral,88,Engaged,frame_25987.csv
+Personne-14,neutral,90,Not Engaged,frame_25987.csv
+Personne-15,happy,90,Not Engaged,frame_25987.csv
+Personne-16,happy,89,Engaged,frame_25987.csv
+Personne-17,sad,56,Engaged,frame_25987.csv
+Personne-1,neutral,96,Engaged,frame_27986.csv
+Personne-2,neutral,82,Engaged,frame_27986.csv
+Personne-3,fear,65,Not Engaged,frame_27986.csv
+Personne-4,sad,97,Not Engaged,frame_27986.csv
+Personne-5,sad,36,Engaged,frame_27986.csv
+Personne-6,sad,63,Engaged,frame_27986.csv
+Personne-7,fear,37,Engaged,frame_27986.csv
+Personne-8,sad,67,Not Engaged,frame_27986.csv
+Personne-9,sad,51,Not Engaged,frame_27986.csv
+Personne-10,fear,86,Not Engaged,frame_27986.csv
+Personne-11,neutral,91,Engaged,frame_27986.csv
+Personne-12,sad,58,Engaged,frame_27986.csv
+Personne-13,neutral,70,Not Engaged,frame_27986.csv
+Personne-14,fear,59,Engaged,frame_27986.csv
+Personne-15,neutral,99,Engaged,frame_27986.csv
+Personne-16,sad,47,Engaged,frame_27986.csv
+Personne-17,happy,51,Engaged,frame_27986.csv
+Personne-1,sad,99,Engaged,frame_29985.csv
+Personne-2,angry,35,Engaged,frame_29985.csv
+Personne-3,neutral,49,Engaged,frame_29985.csv
+Personne-4,sad,97,Engaged,frame_29985.csv
+Personne-5,neutral,85,Engaged,frame_29985.csv
+Personne-6,sad,97,Engaged,frame_29985.csv
+Personne-7,fear,97,Not Engaged,frame_29985.csv
+Personne-8,sad,77,Engaged,frame_29985.csv
+Personne-9,neutral,83,Not Engaged,frame_29985.csv
+Personne-10,neutral,65,Engaged,frame_29985.csv
+Personne-11,sad,89,Not Engaged,frame_29985.csv
+Personne-12,sad,53,Engaged,frame_29985.csv
+Personne-13,neutral,67,Engaged,frame_29985.csv
+Personne-14,sad,51,Engaged,frame_29985.csv
+Personne-15,fear,61,Engaged,frame_29985.csv
+Personne-16,neutral,73,Engaged,frame_29985.csv
+Personne-1,neutral,78,Engaged,frame_31984.csv
+Personne-2,angry,46,Engaged,frame_31984.csv
+Personne-3,happy,77,Engaged,frame_31984.csv
+Personne-4,sad,63,Not Engaged,frame_31984.csv
+Personne-5,sad,95,Not Engaged,frame_31984.csv
+Personne-6,sad,60,Engaged,frame_31984.csv
+Personne-7,sad,92,Not Engaged,frame_31984.csv
+Personne-8,sad,73,Engaged,frame_31984.csv
+Personne-9,neutral,100,Not Engaged,frame_31984.csv
+Personne-10,angry,44,Not Engaged,frame_31984.csv
+Personne-11,fear,57,Engaged,frame_31984.csv
+Personne-12,sad,54,Not Engaged,frame_31984.csv
+Personne-13,sad,49,Engaged,frame_31984.csv
+Personne-14,sad,82,Not Engaged,frame_31984.csv
+Personne-15,neutral,94,Engaged,frame_31984.csv
+Personne-16,fear,63,Engaged,frame_31984.csv
+Personne-17,angry,46,Engaged,frame_31984.csv
+Personne-18,sad,98,Engaged,frame_31984.csv
+Personne-19,sad,100,Engaged,frame_31984.csv
+Personne-20,neutral,43,Engaged,frame_31984.csv
+Personne-1,fear,58,Engaged,frame_33983.csv
+Personne-2,neutral,96,Engaged,frame_33983.csv
+Personne-3,sad,97,Engaged,frame_33983.csv
+Personne-4,sad,70,Not Engaged,frame_33983.csv
+Personne-5,neutral,59,Not Engaged,frame_33983.csv
+Personne-6,sad,72,Engaged,frame_33983.csv
+Personne-7,sad,93,Not Engaged,frame_33983.csv
+Personne-8,neutral,51,Not Engaged,frame_33983.csv
+Personne-9,sad,98,Not Engaged,frame_33983.csv
+Personne-10,fear,71,Engaged,frame_33983.csv
+Personne-11,neutral,49,Engaged,frame_33983.csv
+Personne-12,angry,45,Engaged,frame_33983.csv
+Personne-13,sad,72,Engaged,frame_33983.csv
+Personne-14,neutral,52,Engaged,frame_33983.csv
+Personne-15,angry,95,Engaged,frame_33983.csv
+Personne-16,sad,80,Not Engaged,frame_33983.csv
+Personne-17,sad,58,Engaged,frame_33983.csv
+Personne-18,fear,73,Engaged,frame_33983.csv
+Personne-1,sad,86,Engaged,frame_35982.csv
+Personne-2,fear,73,Engaged,frame_35982.csv
+Personne-3,neutral,98,Not Engaged,frame_35982.csv
+Personne-4,fear,94,Engaged,frame_35982.csv
+Personne-5,sad,100,Engaged,frame_35982.csv
+Personne-6,sad,90,Engaged,frame_35982.csv
+Personne-7,sad,81,Engaged,frame_35982.csv
+Personne-8,sad,96,Not Engaged,frame_35982.csv
+Personne-9,sad,58,Not Engaged,frame_35982.csv
+Personne-10,fear,44,Engaged,frame_35982.csv
+Personne-11,fear,63,Engaged,frame_35982.csv
+Personne-12,sad,96,Engaged,frame_35982.csv
+Personne-13,neutral,65,Not Engaged,frame_35982.csv
+Personne-14,angry,54,Engaged,frame_35982.csv
+Personne-15,neutral,40,Engaged,frame_35982.csv
+Personne-16,sad,74,Engaged,frame_35982.csv
+Personne-17,sad,69,Engaged,frame_35982.csv
+Personne-1,sad,52,Engaged,frame_37981.csv
+Personne-2,neutral,61,Engaged,frame_37981.csv
+Personne-3,sad,77,Engaged,frame_37981.csv
+Personne-4,fear,92,Engaged,frame_37981.csv
+Personne-5,surprise,42,Engaged,frame_37981.csv
+Personne-6,sad,64,Not Engaged,frame_37981.csv
+Personne-7,angry,56,Engaged,frame_37981.csv
+Personne-8,sad,100,Engaged,frame_37981.csv
+Personne-9,neutral,69,Not Engaged,frame_37981.csv
+Personne-10,neutral,86,Engaged,frame_37981.csv
+Personne-11,sad,71,Not Engaged,frame_37981.csv
+Personne-12,fear,99,Not Engaged,frame_37981.csv
+Personne-13,fear,72,Engaged,frame_37981.csv
+Personne-14,angry,32,Engaged,frame_37981.csv
+Personne-15,sad,82,Engaged,frame_37981.csv
+Personne-16,sad,77,Not Engaged,frame_37981.csv
+Personne-1,sad,73,Engaged,frame_3998.csv
+Personne-2,angry,55,Engaged,frame_3998.csv
+Personne-3,sad,74,Engaged,frame_3998.csv
+Personne-4,disgust,41,Engaged,frame_3998.csv
+Personne-5,neutral,48,Not Engaged,frame_3998.csv
+Personne-6,sad,47,Engaged,frame_3998.csv
+Personne-7,sad,94,Not Engaged,frame_3998.csv
+Personne-8,angry,78,Engaged,frame_3998.csv
+Personne-9,sad,50,Engaged,frame_3998.csv
+Personne-10,neutral,80,Engaged,frame_3998.csv
+Personne-11,sad,90,Not Engaged,frame_3998.csv
+Personne-12,sad,70,Engaged,frame_3998.csv
+Personne-13,angry,48,Engaged,frame_3998.csv
+Personne-14,fear,67,Not Engaged,frame_3998.csv
+Personne-15,sad,42,Engaged,frame_3998.csv
+Personne-16,surprise,85,Engaged,frame_3998.csv
+Personne-17,fear,58,Engaged,frame_3998.csv
+Personne-18,neutral,56,Engaged,frame_3998.csv
+Personne-19,sad,94,Engaged,frame_3998.csv
+Personne-1,sad,82,Engaged,frame_43978.csv
+Personne-2,angry,67,Engaged,frame_43978.csv
+Personne-3,sad,97,Engaged,frame_43978.csv
+Personne-4,sad,79,Not Engaged,frame_43978.csv
+Personne-5,neutral,92,Engaged,frame_43978.csv
+Personne-6,sad,79,Not Engaged,frame_43978.csv
+Personne-7,happy,54,Engaged,frame_43978.csv
+Personne-8,neutral,87,Not Engaged,frame_43978.csv
+Personne-9,neutral,86,Engaged,frame_43978.csv
+Personne-10,neutral,49,Not Engaged,frame_43978.csv
+Personne-11,sad,96,Engaged,frame_43978.csv
+Personne-12,neutral,97,Not Engaged,frame_43978.csv
+Personne-13,sad,62,Not Engaged,frame_43978.csv
+Personne-14,neutral,67,Not Engaged,frame_43978.csv
+Personne-15,neutral,76,Engaged,frame_43978.csv
+Personne-16,angry,41,Engaged,frame_43978.csv
+Personne-17,angry,35,Engaged,frame_43978.csv
+Personne-18,fear,64,Engaged,frame_43978.csv
+Personne-1,sad,56,Engaged,frame_45977.csv
+Personne-2,neutral,87,Engaged,frame_45977.csv
+Personne-3,neutral,99,Not Engaged,frame_45977.csv
+Personne-4,sad,98,Engaged,frame_45977.csv
+Personne-5,sad,93,Engaged,frame_45977.csv
+Personne-6,sad,97,Not Engaged,frame_45977.csv
+Personne-7,neutral,93,Not Engaged,frame_45977.csv
+Personne-8,sad,53,Not Engaged,frame_45977.csv
+Personne-9,happy,95,Engaged,frame_45977.csv
+Personne-10,neutral,84,Engaged,frame_45977.csv
+Personne-11,sad,78,Not Engaged,frame_45977.csv
+Personne-12,neutral,51,Engaged,frame_45977.csv
+Personne-13,neutral,53,Not Engaged,frame_45977.csv
+Personne-14,fear,43,Engaged,frame_45977.csv
+Personne-15,neutral,59,Engaged,frame_45977.csv
+Personne-16,sad,89,Engaged,frame_45977.csv
+Personne-1,sad,92,Engaged,frame_47976.csv
+Personne-2,sad,47,Not Engaged,frame_47976.csv
+Personne-3,sad,92,Engaged,frame_47976.csv
+Personne-4,neutral,98,Engaged,frame_47976.csv
+Personne-5,happy,64,Not Engaged,frame_47976.csv
+Personne-6,sad,59,Engaged,frame_47976.csv
+Personne-7,sad,34,Not Engaged,frame_47976.csv
+Personne-8,sad,95,Engaged,frame_47976.csv
+Personne-9,fear,50,Engaged,frame_47976.csv
+Personne-10,sad,65,Not Engaged,frame_47976.csv
+Personne-11,neutral,51,Not Engaged,frame_47976.csv
+Personne-12,fear,34,Engaged,frame_47976.csv
+Personne-13,neutral,81,Not Engaged,frame_47976.csv
+Personne-14,neutral,91,Engaged,frame_47976.csv
+Personne-15,sad,72,Not Engaged,frame_47976.csv
+Personne-16,neutral,66,Not Engaged,frame_47976.csv
+Personne-17,sad,64,Not Engaged,frame_47976.csv
+Personne-18,fear,45,Engaged,frame_47976.csv
+Personne-19,angry,43,Engaged,frame_47976.csv
+Personne-20,neutral,90,Engaged,frame_47976.csv
+Personne-1,neutral,93,Engaged,frame_49975.csv
+Personne-2,sad,67,Not Engaged,frame_49975.csv
+Personne-3,neutral,89,Engaged,frame_49975.csv
+Personne-4,sad,77,Engaged,frame_49975.csv
+Personne-5,sad,46,Not Engaged,frame_49975.csv
+Personne-6,sad,94,Engaged,frame_49975.csv
+Personne-7,neutral,79,Not Engaged,frame_49975.csv
+Personne-8,sad,63,Engaged,frame_49975.csv
+Personne-9,neutral,76,Not Engaged,frame_49975.csv
+Personne-10,neutral,60,Engaged,frame_49975.csv
+Personne-11,sad,65,Not Engaged,frame_49975.csv
+Personne-12,neutral,87,Engaged,frame_49975.csv
+Personne-13,sad,70,Engaged,frame_49975.csv
+Personne-14,angry,56,Engaged,frame_49975.csv
+Personne-15,sad,100,Engaged,frame_49975.csv
+Personne-16,sad,80,Engaged,frame_49975.csv
+Personne-1,neutral,75,Not Engaged,frame_51974.csv
+Personne-2,sad,52,Engaged,frame_51974.csv
+Personne-3,neutral,63,Not Engaged,frame_51974.csv
+Personne-4,sad,92,Engaged,frame_51974.csv
+Personne-5,sad,67,Not Engaged,frame_51974.csv
+Personne-6,neutral,98,Not Engaged,frame_51974.csv
+Personne-7,sad,100,Engaged,frame_51974.csv
+Personne-8,sad,79,Engaged,frame_51974.csv
+Personne-9,neutral,70,Not Engaged,frame_51974.csv
+Personne-10,neutral,97,Engaged,frame_51974.csv
+Personne-11,fear,99,Engaged,frame_51974.csv
+Personne-12,fear,48,Not Engaged,frame_51974.csv
+Personne-13,angry,34,Engaged,frame_51974.csv
+Personne-14,neutral,91,Engaged,frame_51974.csv
+Personne-15,sad,52,Engaged,frame_51974.csv
+Personne-16,angry,74,Engaged,frame_51974.csv
+Personne-17,neutral,92,Engaged,frame_51974.csv
+Personne-1,neutral,55,Engaged,frame_53973.csv
+Personne-2,sad,84,Not Engaged,frame_53973.csv
+Personne-3,sad,64,Not Engaged,frame_53973.csv
+Personne-4,neutral,80,Engaged,frame_53973.csv
+Personne-5,angry,53,Engaged,frame_53973.csv
+Personne-6,neutral,51,Not Engaged,frame_53973.csv
+Personne-7,neutral,41,Engaged,frame_53973.csv
+Personne-8,neutral,61,Not Engaged,frame_53973.csv
+Personne-9,sad,99,Engaged,frame_53973.csv
+Personne-10,angry,45,Engaged,frame_53973.csv
+Personne-11,neutral,72,Engaged,frame_53973.csv
+Personne-12,neutral,76,Not Engaged,frame_53973.csv
+Personne-13,fear,49,Engaged,frame_53973.csv
+Personne-14,fear,51,Not Engaged,frame_53973.csv
+Personne-15,sad,61,Engaged,frame_53973.csv
+Personne-16,fear,57,Engaged,frame_53973.csv
+Personne-1,sad,85,Not Engaged,frame_55972.csv
+Personne-2,angry,52,Engaged,frame_55972.csv
+Personne-3,sad,64,Not Engaged,frame_55972.csv
+Personne-4,sad,50,Engaged,frame_55972.csv
+Personne-5,sad,93,Engaged,frame_55972.csv
+Personne-6,fear,44,Not Engaged,frame_55972.csv
+Personne-7,neutral,56,Engaged,frame_55972.csv
+Personne-8,sad,72,Engaged,frame_55972.csv
+Personne-9,sad,86,Not Engaged,frame_55972.csv
+Personne-10,fear,42,Engaged,frame_55972.csv
+Personne-11,sad,70,Engaged,frame_55972.csv
+Personne-12,neutral,77,Engaged,frame_55972.csv
+Personne-13,sad,97,Engaged,frame_55972.csv
+Personne-14,sad,67,Not Engaged,frame_55972.csv
+Personne-15,neutral,44,Engaged,frame_55972.csv
+Personne-16,sad,99,Engaged,frame_55972.csv
+Personne-17,angry,47,Engaged,frame_55972.csv
+Personne-18,neutral,50,Not Engaged,frame_55972.csv
+Personne-19,neutral,99,Engaged,frame_55972.csv
+Personne-1,neutral,72,Not Engaged,frame_57971.csv
+Personne-2,sad,96,Engaged,frame_57971.csv
+Personne-3,happy,86,Engaged,frame_57971.csv
+Personne-4,sad,87,Engaged,frame_57971.csv
+Personne-5,neutral,45,Engaged,frame_57971.csv
+Personne-6,angry,56,Engaged,frame_57971.csv
+Personne-7,neutral,74,Not Engaged,frame_57971.csv
+Personne-8,sad,53,Engaged,frame_57971.csv
+Personne-9,sad,51,Not Engaged,frame_57971.csv
+Personne-10,sad,92,Engaged,frame_57971.csv
+Personne-11,sad,51,Engaged,frame_57971.csv
+Personne-12,sad,43,Engaged,frame_57971.csv
+Personne-13,neutral,79,Engaged,frame_57971.csv
+Personne-14,sad,62,Engaged,frame_57971.csv
+Personne-15,angry,54,Engaged,frame_57971.csv
+Personne-16,neutral,62,Not Engaged,frame_57971.csv
+Personne-17,happy,58,Engaged,frame_57971.csv
+Personne-1,sad,89,Engaged,frame_5997.csv
+Personne-2,angry,100,Engaged,frame_5997.csv
+Personne-3,sad,62,Not Engaged,frame_5997.csv
+Personne-4,angry,58,Engaged,frame_5997.csv
+Personne-5,sad,100,Not Engaged,frame_5997.csv
+Personne-6,sad,64,Engaged,frame_5997.csv
+Personne-7,fear,46,Engaged,frame_5997.csv
+Personne-8,fear,58,Not Engaged,frame_5997.csv
+Personne-9,sad,98,Not Engaged,frame_5997.csv
+Personne-10,sad,57,Not Engaged,frame_5997.csv
+Personne-11,fear,88,Engaged,frame_5997.csv
+Personne-12,fear,54,Engaged,frame_5997.csv
+Personne-13,angry,99,Engaged,frame_5997.csv
+Personne-14,neutral,79,Not Engaged,frame_5997.csv
+Personne-15,angry,99,Engaged,frame_5997.csv
+Personne-16,fear,33,Engaged,frame_5997.csv
+Personne-17,neutral,90,Not Engaged,frame_5997.csv
+Personne-18,sad,39,Engaged,frame_5997.csv
+Personne-19,angry,59,Engaged,frame_5997.csv
+Personne-1,sad,96,Not Engaged,frame_59970.csv
+Personne-2,sad,53,Not Engaged,frame_59970.csv
+Personne-3,fear,66,Not Engaged,frame_59970.csv
+Personne-4,angry,56,Not Engaged,frame_59970.csv
+Personne-5,angry,46,Engaged,frame_59970.csv
+Personne-6,sad,84,Not Engaged,frame_59970.csv
+Personne-7,sad,82,Not Engaged,frame_59970.csv
+Personne-8,neutral,81,Engaged,frame_59970.csv
+Personne-9,neutral,85,Engaged,frame_59970.csv
+Personne-10,fear,91,Engaged,frame_59970.csv
+Personne-11,neutral,98,Engaged,frame_59970.csv
+Personne-12,sad,76,Engaged,frame_59970.csv
+Personne-13,happy,83,Engaged,frame_59970.csv
+Personne-14,fear,39,Not Engaged,frame_59970.csv
+Personne-15,angry,36,Not Engaged,frame_59970.csv
+Personne-16,neutral,99,Engaged,frame_59970.csv
+Personne-17,sad,53,Engaged,frame_59970.csv
+Personne-18,fear,63,Engaged,frame_59970.csv
+Personne-1,neutral,54,Not Engaged,frame_61969.csv
+Personne-2,happy,59,Engaged,frame_61969.csv
+Personne-3,neutral,74,Not Engaged,frame_61969.csv
+Personne-4,happy,100,Not Engaged,frame_61969.csv
+Personne-5,angry,60,Engaged,frame_61969.csv
+Personne-6,angry,69,Engaged,frame_61969.csv
+Personne-7,sad,63,Not Engaged,frame_61969.csv
+Personne-8,sad,82,Not Engaged,frame_61969.csv
+Personne-9,neutral,88,Not Engaged,frame_61969.csv
+Personne-10,neutral,48,Not Engaged,frame_61969.csv
+Personne-11,sad,43,Not Engaged,frame_61969.csv
+Personne-12,sad,35,Engaged,frame_61969.csv
+Personne-13,neutral,69,Not Engaged,frame_61969.csv
+Personne-14,sad,40,Engaged,frame_61969.csv
+Personne-15,neutral,88,Engaged,frame_61969.csv
+Personne-16,neutral,82,Engaged,frame_61969.csv
+Personne-17,sad,97,Engaged,frame_61969.csv
+Personne-18,angry,54,Engaged,frame_61969.csv
+Personne-19,sad,76,Engaged,frame_61969.csv
+Personne-1,sad,92,Engaged,frame_63968.csv
+Personne-2,fear,100,Not Engaged,frame_63968.csv
+Personne-3,neutral,79,Engaged,frame_63968.csv
+Personne-4,neutral,77,Not Engaged,frame_63968.csv
+Personne-5,fear,45,Engaged,frame_63968.csv
+Personne-6,sad,77,Engaged,frame_63968.csv
+Personne-7,fear,43,Not Engaged,frame_63968.csv
+Personne-8,sad,96,Engaged,frame_63968.csv
+Personne-9,sad,72,Not Engaged,frame_63968.csv
+Personne-10,neutral,49,Not Engaged,frame_63968.csv
+Personne-11,angry,88,Not Engaged,frame_63968.csv
+Personne-12,sad,49,Not Engaged,frame_63968.csv
+Personne-13,fear,35,Not Engaged,frame_63968.csv
+Personne-14,neutral,70,Not Engaged,frame_63968.csv
+Personne-15,sad,72,Engaged,frame_63968.csv
+Personne-16,fear,45,Engaged,frame_63968.csv
+Personne-17,sad,96,Engaged,frame_63968.csv
+Personne-18,sad,99,Engaged,frame_63968.csv
+Personne-19,sad,82,Not Engaged,frame_63968.csv
+Personne-20,neutral,60,Engaged,frame_63968.csv
+Personne-21,angry,87,Engaged,frame_63968.csv
+Personne-1,fear,49,Not Engaged,frame_65967.csv
+Personne-2,neutral,87,Not Engaged,frame_65967.csv
+Personne-3,neutral,51,Engaged,frame_65967.csv
+Personne-4,neutral,100,Not Engaged,frame_65967.csv
+Personne-5,neutral,73,Engaged,frame_65967.csv
+Personne-6,sad,39,Not Engaged,frame_65967.csv
+Personne-7,fear,65,Not Engaged,frame_65967.csv
+Personne-8,sad,89,Not Engaged,frame_65967.csv
+Personne-9,sad,34,Not Engaged,frame_65967.csv
+Personne-10,angry,64,Not Engaged,frame_65967.csv
+Personne-11,surprise,91,Not Engaged,frame_65967.csv
+Personne-12,sad,52,Not Engaged,frame_65967.csv
+Personne-13,fear,75,Engaged,frame_65967.csv
+Personne-14,angry,98,Engaged,frame_65967.csv
+Personne-15,sad,86,Engaged,frame_65967.csv
+Personne-16,angry,61,Not Engaged,frame_65967.csv
+Personne-17,happy,62,Engaged,frame_65967.csv
+Personne-18,sad,84,Engaged,frame_65967.csv
+Personne-19,sad,61,Engaged,frame_65967.csv
+Personne-20,sad,45,Engaged,frame_65967.csv
+Personne-1,sad,48,Engaged,frame_67966.csv
+Personne-2,sad,47,Not Engaged,frame_67966.csv
+Personne-3,neutral,80,Not Engaged,frame_67966.csv
+Personne-4,neutral,58,Not Engaged,frame_67966.csv
+Personne-5,neutral,53,Not Engaged,frame_67966.csv
+Personne-6,angry,94,Not Engaged,frame_67966.csv
+Personne-7,sad,89,Engaged,frame_67966.csv
+Personne-8,neutral,96,Engaged,frame_67966.csv
+Personne-9,sad,94,Not Engaged,frame_67966.csv
+Personne-10,neutral,60,Engaged,frame_67966.csv
+Personne-11,surprise,94,Not Engaged,frame_67966.csv
+Personne-12,neutral,78,Not Engaged,frame_67966.csv
+Personne-13,neutral,67,Engaged,frame_67966.csv
+Personne-14,neutral,37,Engaged,frame_67966.csv
+Personne-15,happy,84,Engaged,frame_67966.csv
+Personne-16,sad,64,Engaged,frame_67966.csv
+Personne-17,angry,79,Engaged,frame_67966.csv
+Personne-18,neutral,83,Engaged,frame_67966.csv
+Personne-19,neutral,96,Engaged,frame_67966.csv
+Personne-20,neutral,69,Not Engaged,frame_67966.csv
+Personne-21,neutral,35,Engaged,frame_67966.csv
+Personne-1,sad,63,Engaged,frame_69965.csv
+Personne-2,angry,46,Engaged,frame_69965.csv
+Personne-3,neutral,86,Not Engaged,frame_69965.csv
+Personne-4,sad,48,Not Engaged,frame_69965.csv
+Personne-5,sad,66,Not Engaged,frame_69965.csv
+Personne-6,sad,74,Engaged,frame_69965.csv
+Personne-7,sad,64,Not Engaged,frame_69965.csv
+Personne-8,neutral,54,Engaged,frame_69965.csv
+Personne-9,fear,95,Not Engaged,frame_69965.csv
+Personne-10,sad,74,Not Engaged,frame_69965.csv
+Personne-11,neutral,53,Engaged,frame_69965.csv
+Personne-12,neutral,100,Not Engaged,frame_69965.csv
+Personne-13,sad,60,Engaged,frame_69965.csv
+Personne-14,sad,58,Engaged,frame_69965.csv
+Personne-15,sad,99,Not Engaged,frame_69965.csv
+Personne-16,sad,57,Engaged,frame_69965.csv
+Personne-17,sad,48,Not Engaged,frame_69965.csv
+Personne-18,angry,25,Not Engaged,frame_69965.csv
+Personne-19,neutral,89,Engaged,frame_69965.csv
+Personne-1,happy,51,Engaged,frame_71964.csv
+Personne-2,sad,55,Not Engaged,frame_71964.csv
+Personne-3,sad,53,Not Engaged,frame_71964.csv
+Personne-4,angry,60,Engaged,frame_71964.csv
+Personne-5,sad,92,Engaged,frame_71964.csv
+Personne-6,angry,68,Engaged,frame_71964.csv
+Personne-7,sad,56,Engaged,frame_71964.csv
+Personne-8,neutral,74,Engaged,frame_71964.csv
+Personne-9,sad,98,Not Engaged,frame_71964.csv
+Personne-10,fear,62,Engaged,frame_71964.csv
+Personne-11,neutral,71,Engaged,frame_71964.csv
+Personne-12,neutral,76,Not Engaged,frame_71964.csv
+Personne-13,sad,47,Not Engaged,frame_71964.csv
+Personne-14,sad,48,Not Engaged,frame_71964.csv
+Personne-15,sad,98,Engaged,frame_71964.csv
+Personne-16,neutral,74,Engaged,frame_71964.csv
+Personne-17,fear,63,Engaged,frame_71964.csv
+Personne-18,sad,55,Engaged,frame_71964.csv
+Personne-19,sad,54,Engaged,frame_71964.csv
+Personne-1,fear,45,Engaged,frame_7996.csv
+Personne-2,sad,53,Not Engaged,frame_7996.csv
+Personne-3,sad,54,Engaged,frame_7996.csv
+Personne-4,sad,85,Engaged,frame_7996.csv
+Personne-5,angry,51,Engaged,frame_7996.csv
+Personne-6,fear,80,Not Engaged,frame_7996.csv
+Personne-7,sad,58,Engaged,frame_7996.csv
+Personne-8,sad,94,Not Engaged,frame_7996.csv
+Personne-9,fear,41,Engaged,frame_7996.csv
+Personne-10,neutral,76,Not Engaged,frame_7996.csv
+Personne-11,angry,96,Engaged,frame_7996.csv
+Personne-12,neutral,49,Engaged,frame_7996.csv
+Personne-13,sad,61,Engaged,frame_7996.csv
+Personne-14,neutral,63,Not Engaged,frame_7996.csv
+Personne-15,angry,71,Engaged,frame_7996.csv
+Personne-16,neutral,89,Engaged,frame_7996.csv
+Personne-17,sad,51,Not Engaged,frame_7996.csv
+Personne-18,neutral,100,Not Engaged,frame_7996.csv
+Personne-1,sad,80,Not Engaged,frame_85957.csv
+Personne-2,fear,77,Engaged,frame_85957.csv
+Personne-3,fear,76,Engaged,frame_85957.csv
+Personne-4,sad,61,Engaged,frame_85957.csv
+Personne-5,neutral,63,Not Engaged,frame_85957.csv
+Personne-6,sad,70,Engaged,frame_85957.csv
+Personne-7,neutral,51,Engaged,frame_85957.csv
+Personne-8,neutral,98,Not Engaged,frame_85957.csv
+Personne-9,sad,94,Engaged,frame_85957.csv
+Personne-10,fear,51,Engaged,frame_85957.csv
+Personne-11,fear,75,Engaged,frame_85957.csv
+Personne-12,angry,47,Engaged,frame_85957.csv
+Personne-13,sad,99,Engaged,frame_85957.csv
+Personne-14,sad,72,Engaged,frame_85957.csv
+Personne-15,sad,100,Engaged,frame_85957.csv
+Personne-16,sad,66,Engaged,frame_85957.csv
+Personne-1,sad,86,Engaged,frame_87956.csv
+Personne-2,angry,54,Engaged,frame_87956.csv
+Personne-3,sad,95,Engaged,frame_87956.csv
+Personne-4,disgust,83,Engaged,frame_87956.csv
+Personne-5,neutral,86,Engaged,frame_87956.csv
+Personne-6,fear,40,Engaged,frame_87956.csv
+Personne-7,neutral,95,Not Engaged,frame_87956.csv
+Personne-8,angry,93,Engaged,frame_87956.csv
+Personne-9,sad,99,Not Engaged,frame_87956.csv
+Personne-10,neutral,41,Engaged,frame_87956.csv
+Personne-11,neutral,91,Engaged,frame_87956.csv
+Personne-12,sad,88,Engaged,frame_87956.csv
+Personne-13,neutral,78,Engaged,frame_87956.csv
+Personne-14,neutral,85,Engaged,frame_87956.csv
+Personne-15,sad,47,Engaged,frame_87956.csv
+Personne-1,fear,68,Engaged,frame_89955.csv
+Personne-2,fear,35,Engaged,frame_89955.csv
+Personne-3,sad,100,Not Engaged,frame_89955.csv
+Personne-4,sad,62,Engaged,frame_89955.csv
+Personne-5,sad,67,Not Engaged,frame_89955.csv
+Personne-6,sad,79,Engaged,frame_89955.csv
+Personne-7,fear,61,Engaged,frame_89955.csv
+Personne-8,fear,57,Engaged,frame_89955.csv
+Personne-9,angry,53,Engaged,frame_89955.csv
+Personne-10,neutral,31,Not Engaged,frame_89955.csv
+Personne-11,sad,56,Not Engaged,frame_89955.csv
+Personne-12,neutral,86,Not Engaged,frame_89955.csv
+Personne-13,sad,35,Engaged,frame_89955.csv
+Personne-14,neutral,66,Engaged,frame_89955.csv
+Personne-15,neutral,95,Engaged,frame_89955.csv
+Personne-16,sad,97,Engaged,frame_89955.csv
+Personne-17,angry,88,Engaged,frame_89955.csv
+Personne-18,sad,70,Engaged,frame_89955.csv
+Personne-1,neutral,78,Not Engaged,frame_93953.csv
+Personne-2,fear,66,Engaged,frame_93953.csv
+Personne-3,angry,66,Engaged,frame_93953.csv
+Personne-4,neutral,42,Engaged,frame_93953.csv
+Personne-5,sad,73,Engaged,frame_93953.csv
+Personne-6,fear,78,Engaged,frame_93953.csv
+Personne-7,neutral,54,Engaged,frame_93953.csv
+Personne-8,fear,56,Not Engaged,frame_93953.csv
+Personne-9,neutral,57,Not Engaged,frame_93953.csv
+Personne-10,disgust,58,Engaged,frame_93953.csv
+Personne-11,surprise,59,Not Engaged,frame_93953.csv
+Personne-12,angry,89,Engaged,frame_93953.csv
+Personne-13,sad,67,Not Engaged,frame_93953.csv
+Personne-14,angry,53,Engaged,frame_93953.csv
+Personne-15,neutral,95,Engaged,frame_93953.csv
+Personne-16,fear,88,Engaged,frame_93953.csv
+Personne-17,sad,50,Engaged,frame_93953.csv
+Personne-18,angry,73,Engaged,frame_93953.csv
+Personne-1,neutral,79,Not Engaged,frame_97951.csv
+Personne-2,neutral,55,Engaged,frame_97951.csv
+Personne-3,fear,51,Engaged,frame_97951.csv
+Personne-4,sad,50,Engaged,frame_97951.csv
+Personne-5,fear,67,Engaged,frame_97951.csv
+Personne-6,sad,79,Not Engaged,frame_97951.csv
+Personne-7,neutral,89,Not Engaged,frame_97951.csv
+Personne-8,angry,84,Engaged,frame_97951.csv
+Personne-9,sad,86,Not Engaged,frame_97951.csv
+Personne-10,angry,92,Engaged,frame_97951.csv
+Personne-11,angry,50,Engaged,frame_97951.csv
+Personne-12,neutral,42,Engaged,frame_97951.csv
+Personne-13,fear,81,Engaged,frame_97951.csv
+Personne-14,happy,92,Not Engaged,frame_97951.csv
+Personne-15,sad,44,Engaged,frame_97951.csv
+Personne-16,neutral,80,Engaged,frame_97951.csv
+Personne-1,sad,51,Engaged,frame_9995.csv
+Personne-2,surprise,77,Engaged,frame_9995.csv
+Personne-3,surprise,59,Engaged,frame_9995.csv
+Personne-4,neutral,54,Not Engaged,frame_9995.csv
+Personne-5,sad,99,Engaged,frame_9995.csv
+Personne-6,neutral,50,Engaged,frame_9995.csv
+Personne-7,neutral,44,Not Engaged,frame_9995.csv
+Personne-8,sad,59,Engaged,frame_9995.csv
+Personne-9,neutral,93,Engaged,frame_9995.csv
+Personne-10,neutral,97,Not Engaged,frame_9995.csv
+Personne-11,sad,91,Engaged,frame_9995.csv
+Personne-12,sad,82,Not Engaged,frame_9995.csv
+Personne-13,angry,67,Engaged,frame_9995.csv
+Personne-14,fear,80,Not Engaged,frame_9995.csv
+Personne-15,neutral,63,Not Engaged,frame_9995.csv
+Personne-16,angry,66,Engaged,frame_9995.csv
+Personne-17,angry,73,Engaged,frame_9995.csv
