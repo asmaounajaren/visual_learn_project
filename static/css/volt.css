@@ -123,6 +123,10 @@
     background-color: #ddd;
 }
 /*-----------chart1----------*/
+/*.chart-container img{*/
+/*    width: 250px;*/
+/*    height: 250px;*/
+/*}*/
 .chart-heading {
     font-family: "Rubik", sans-serif;
     color: #023047;
