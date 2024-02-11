@@ -320,11 +320,13 @@
             </div>
 
           </div>
+        <div class="swal2-title" style="text-align: center">
+         <h3>Emotion Analysis Result</h3>
+            <p><strong>Emotion with highest percentage:</strong> {{ emotion }}</p></div>
           <div class="col-12 col-xxl-6 mb-4">
             <div class="card border-0 shadow" style="padding-left: 15px">
               <div class="card-header border-bottom d-flex align-items-center justify-content-between">
-                <h2 class="fs-5 fw-bold mb-0">Progress track</h2>
-                <a href="#" class="btn btn-sm btn-primary">See tasks</a>
+                  <h2 class="fs-5 fw-bold mb-0" style="text-align: center">Emotion Percentage Chart</h2>
               </div>
               <div class="card-body">
                 <img src="data:image/png;base64,{{ chart_data }}" alt="Emotion Pie Chart">
@@ -337,8 +339,8 @@
           <div class="col-12 col-xxl-6 mb-4">
             <div class="card border-0 shadow">
               <div class="card-header border-bottom d-flex align-items-center justify-content-between">
-                <h2 class="fs-5 fw-bold mb-0">Progress track</h2>
-                <a href="#" class="btn btn-sm btn-primary">See tasks</a>
+                <h2 class="fs-5 fw-bold mb-0" style="text-align: center">Engagement Percentage Chart</h2>
+{#                <a href="#" class="btn btn-sm btn-primary">See tasks</a>#}
               </div>
               <div class="card-body">
                 <img src="data:image/png;base64,{{ plot }}" alt="Emotion Chart">
@@ -387,10 +389,10 @@
               <div class="programming-stats">
                     <div class="details">
                         <ul>
-                            <li>Course name: {{ course_name }}</li>
-                            <li>Session date: {{ session_date_formatted }}</li>
-                            <li>Hour: {{ hour }}</li>
-                            <li>Classroom: {{ classroom }}</li>
+                            <li>Course name: <strong>{{ course_name }}</strong></li>
+                            <li>Session date: <strong>{{ session_date_formatted }}</strong></li>
+                            <li>Hour: <strong>{{ hour }}</strong></li>
+                            <li>Classroom: <strong>{{ classroom }}</strong></li>
                         </ul>
                 </div>
 
@@ -403,8 +405,7 @@
           <div class="card border-0 shadow">
             <div class="card-body">
 
-              <h3>Emotion Analysis Result</h3>
-              <p><strong>Emotion with highest percentage:</strong> {{ emotion }}</p>
+
 
               <h4>Recommendations:</h4>
               <ul>
@@ -418,8 +419,6 @@
         <div class="col-12 px-0">
           <div class="card border-0 shadow">
             <div class="card-body">
-              <h3>Emotion Analysis Result</h3>
-              <p><strong>Emotion with highest percentage:</strong> {{ emotion }}</p>
 
               <h4>Engagements:</h4>
               <ul>
