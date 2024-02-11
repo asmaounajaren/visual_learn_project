@@ -6,11 +6,7 @@ from backend import create_emotion_pie_chart,analyze_emotions,plot_engagement_pe
 from datetime import datetime
 app = Flask(__name__)
 
-app.config["MYSQL_HOST"] = "localhost"
-app.config["MYSQL_USER"] = "root"
-app.config["MYSQL_PASSWORD"] = ""
-app.config["MYSQL_DB"] = "visual_learn_project"
-mysql = MySQL(app)
+mysql=configure_db(app)
 
 # Example route that fetches data from the database
 @app.route('/', methods=['GET'])
