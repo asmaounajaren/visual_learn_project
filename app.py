@@ -18,15 +18,16 @@ def index():
     cur = mysql.connection.cursor()
     cur.execute("SELECT image_path FROM session_image")
     image_records  = cur.fetchall()
-    cur.close()
     images = [{'image_path': 'data:image/jpeg;base64,' + base64.b64encode(image[0]).decode('utf-8')} for image in image_records]
-
+    cur.execute("SELECT * FROM student")
+    students = cur.fetchall()
+    cur.close()
     chart_data = create_emotion_pie_chart('merged_output.csv')
     csv_file = 'merged_output.csv'
     emotion, recommendations = analyze_emotions(csv_file)
     plot_eng = plot_engagement_percentage(csv_file)
     anlyze_eng = analyze_engagement('merged_output.csv')
-    return render_template("index.html", chart_data=chart_data, emotion=emotion, recommendations=recommendations, plot=plot_eng, engagements=anlyze_eng,images=images)
+    return render_template("index.html", chart_data=chart_data, emotion=emotion, recommendations=recommendations, plot=plot_eng, engagements=anlyze_eng,images=images,students=students)
 @app.route('/test_mysql')
 def test_mysql():
     try:
