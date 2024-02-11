@@ -2,6 +2,8 @@ import csv
 import matplotlib.pyplot as plt
 from io import BytesIO
 import base64
+import pandas as pd
+
 
 
 
@@ -17,7 +19,6 @@ def create_emotion_pie_chart(csv_file):
             else:
                 emotions[emotion] = percentage
 
-    labels = list(emotions.keys())
     sizes = list(emotions.values())
 
     # Set the backend to 'Agg' explicitly
@@ -28,9 +29,8 @@ def create_emotion_pie_chart(csv_file):
 
     # Ajout de l'annotation de l'émotion et de son pourcentage
     annotations = []
-    for i, (label, size) in enumerate(zip(labels, sizes)):
-        annotations.append(f"{label}")
-    plt.legend(patches, annotations, loc="best", bbox_to_anchor=(0.90, 0.5))
+
+    plt.legend(patches, annotations, loc="best", bbox_to_anchor=(1, 0.5))
 
     ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
     # plt.title('Pourcentages des émotions')
@@ -245,3 +245,74 @@ def create_emotion_chart(csv_file, person):
 
 
 img = create_emotion_chart('merged_output.csv', 12)
+
+def get_person_list(csv_file):
+    person_list = []
+
+    with open(csv_file, 'r') as file:
+        csv_reader = csv.DictReader(file)
+        for row in csv_reader:
+            person = row['personne']
+            if person not in person_list:
+                person_list.append(person)
+
+    return person_list
+
+# Charger les données depuis le fichier CSV
+
+def create_emotion_chart_for_person(csv_file, person_number):
+    # Charger les données depuis le fichier CSV
+    df = pd.read_csv(csv_file)
+
+    # Obtenir la liste des personnes à partir du fichier CSV
+    person_list = get_person_list(csv_file)
+
+    # Vérifier si le numéro de personne est valide
+    if person_number < 1 or person_number > len(person_list):
+        print("Numéro de personne invalide.")
+        return None
+
+    # Sélectionner la personne spécifiée
+    personne = person_list[person_number - 1]
+
+    # Filtrer les données pour obtenir les émotions de la personne spécifiée
+    personne_data = df[df['personne'] == personne]
+
+    # Créer un dictionnaire pour mapper les émotions à des couleurs
+    emotion_colors = {'fear': 'red', 'sad': 'blue', 'neutral': 'green', 'angry': 'orange', 'happy': 'yellow', 'surprise': 'purple', 'disgust': 'brown'}
+
+    # Créer le graphique
+    plt.figure(figsize=(10, 6))
+
+    # Initialiser les variables pour stocker les coordonnées des points
+    x_points = personne_data['time_sequence']
+    y_points = personne_data['emotion']
+
+    # Boucle à travers chaque ligne de données de la personne spécifiée
+    for i in range(len(personne_data) - 1):
+        # Récupérer les coordonnées des points à relier
+        x1, y1 = x_points.iloc[i], y_points.iloc[i]
+        x2, y2 = x_points.iloc[i + 1], y_points.iloc[i + 1]
+        # Vérifier si l'émotion est dans le dictionnaire, sinon utiliser une couleur par défaut
+        color = emotion_colors.get(y1, 'gray')
+        # Tracer un lien entre les points
+        plt.plot([x1, x2], [y1, y2], marker='o', color=color)
+
+    # Ajouter des titres et des étiquettes d'axe
+    plt.title(f"Emotions de {personne} par time_sequence")
+    plt.xlabel("Time Sequence")
+    plt.ylabel("émotion")
+    plt.xticks([])  # Supprimer les étiquettes dans l'axe des x
+    plt.legend()
+
+    # Convertir le graphique en image base64
+    buffer = BytesIO()
+    plt.savefig(buffer, format='png')
+    buffer.seek(0)
+    image_base64 = base64.b64encode(buffer.read()).decode('utf-8')
+    plt.close()
+
+    return image_base64
+
+# person_number = int(input("Choisissez le numéro de la personne à visualiser : "))
+# chart_image = create_emotion_chart_for_person('merged_output.csv', person_number)

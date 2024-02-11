@@ -317,7 +317,7 @@
               <span class="dot" onclick="currentSlide(1)"></span>
               <span class="dot" onclick="currentSlide(2)"></span>
               <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
               <span class="dot" onclick="currentSlide(5)"></span>
               <span class="dot" onclick="currentSlide(6)"></span>
             </div>
@@ -377,7 +377,7 @@
                     </td>
                     <td>{{ student[2] }}</td>
                     <td>
-                      <button type="button" class="btn btn-link btn-sm btn-rounded bg-primary text-white">
+                      <button type="button" class="btn btn-link btn-sm btn-rounded bg-primary text-white show-statistic-btn" data-person="{{ loop.index }}">
                         Show Static
                       </button>
 
@@ -388,6 +388,13 @@
                   {% endfor %}
                 </tbody>
               </table>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="img" style="display: none;">
+          <div class="col-12 mb-4">
+            <div class="card border-0 shadow">
+              <img id="emotion-chart-image" src="data:image/png;base64,{{ plot }}" alt="Emotion Chart">
             </div>
           </div>
         </div>
@@ -519,6 +526,7 @@
       </div>
     </footer>
   </main>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
   <!-- Core -->
   <script src="../../vendor/@popperjs/core/dist/umd/popper.min.js"></script>
@@ -564,6 +572,7 @@
   <script src="./static/assets/js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="./static/assets/js/main.js"></script>
+
 </body>
 
 </html>

@@ -1,8 +1,8 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request , jsonify
 from mysqlConnection import configure_db
 from flask_mysqldb import MySQL
 import base64
-from backend import create_emotion_pie_chart,analyze_emotions,plot_engagement_percentage,analyze_engagement
+from backend import create_emotion_pie_chart,analyze_emotions,plot_engagement_percentage,analyze_engagement,create_emotion_chart_for_person
 from datetime import datetime
 app = Flask(__name__)
 
@@ -46,5 +46,15 @@ def test_mysql():
         return f"MySQL Connection Test Successful. Result: {result}"
     except Exception as e:
         return f"MySQL Connection Test Failed. Error: {e}"
+    
+@app.route('/show_statistic', methods=['POST'])
+def show_statistic():
+    person = int(request.form.get('person'))
+    image_base64 = create_emotion_chart_for_person('merged_output.csv',person)
+
+    if image_base64:
+        return jsonify({'image_base64': image_base64})
+    else:
+        return jsonify({'error': 'No data found for the specified person'}), 404
 if __name__ == '__main__':
     app.run(debug=True)
