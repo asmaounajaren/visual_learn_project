@@ -206,3 +206,48 @@ def Get_images():
 recommendations = analyze_engagement('merged_output.csv')
 for recommendation in recommendations:
     print("-", recommendation)
+
+
+def create_emotion_chart(csv_file, person):
+    emotions = {}
+
+    with open(csv_file, 'r') as file:
+        csv_reader = csv.DictReader(file)
+        # Print header to see the actual keys
+        print(csv_reader.fieldnames)
+
+        for row in csv_reader:
+            if 'person' in row and row['person'] == str(person):  # Check if 'person' key is present and filter data
+                emotion = row['emotion']
+                percentage = int(row['pourcentage_emotion'])
+                if emotion in emotions:
+                    emotions[emotion] += percentage
+                else:
+                    emotions[emotion] = percentage
+
+    if not emotions:
+        return None  # Return None if no data is found for the specified person
+
+    labels = list(emotions.keys())
+    sizes = list(emotions.values())
+
+    plt.switch_backend('Agg')
+
+    fig1, ax1 = plt.subplots(figsize=(6, 6))
+    patches, texts, _ = ax1.pie(sizes, autopct='%1.1f%%', startangle=90)
+
+    annotations = [f"{label}" for label in labels]
+    plt.legend(patches, annotations, loc="best", bbox_to_anchor=(0.88, 0.5))
+
+    ax1.axis('equal')
+
+    buffer = BytesIO()
+    plt.savefig(buffer, format='png')
+    buffer.seek(0)
+    image_base64 = base64.b64encode(buffer.read()).decode('utf-8')
+    plt.close()
+
+    return image_base64
+
+
+img = create_emotion_chart('merged_output.csv', 12)

@@ -314,6 +314,9 @@
               <span class="dot" onclick="currentSlide(1)"></span>
               <span class="dot" onclick="currentSlide(2)"></span>
               <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+              <span class="dot" onclick="currentSlide(6)"></span>
             </div>
 
           </div>
@@ -373,25 +376,28 @@
       </div>
       <div class="col-12 col-xl-4">
         <div class="col-12 px-0 mb-4">
-          <div class="card border-0 shadow">
-            <div class="card-header d-flex flex-row align-items-center flex-0 border-bottom">
-              <div class="d-block">
+{#          <div class="card border-0 shadow">#}
+{#            <div class="card-header d-flex flex-row align-items-center flex-0 border-bottom">#}
+{#              <div class="d-block">#}
                 {# <div class="h6 fw-normal text-gray mb-2">Emotion recognition</div>#}
-
-              </div>
-            </div>
+{##}
+{#              </div>#}
+{#            </div>#}
             <div class="card-body p-2">
               <div class="programming-stats">
-                <div class="chart-container">
-                  {# <canvas class="my-chart"></canvas>#}
+                    <div class="details">
+                        <ul>
+                            <li>Course name: {{ course_name }}</li>
+                            <li>Session date: {{ session_date_formatted }}</li>
+                            <li>Hour: {{ hour }}</li>
+                            <li>Classroom: {{ classroom }}</li>
+                        </ul>
                 </div>
 
               </div>
-              <div class="details">
-                <ul></ul>
-              </div>
+
             </div>
-          </div>
+{#          </div>#}
         </div>
         <div class="col-12 px-0 mb-4">
           <div class="card border-0 shadow">
