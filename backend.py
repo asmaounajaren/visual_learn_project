@@ -17,6 +17,7 @@ def create_emotion_pie_chart(csv_file):
             else:
                 emotions[emotion] = percentage
 
+    labels = list(emotions.keys())
     sizes = list(emotions.values())
 
     # Set the backend to 'Agg' explicitly
@@ -27,8 +28,9 @@ def create_emotion_pie_chart(csv_file):
 
     # Ajout de l'annotation de l'émotion et de son pourcentage
     annotations = []
-
-    plt.legend(patches, annotations, loc="best", bbox_to_anchor=(1, 0.5))
+    for i, (label, size) in enumerate(zip(labels, sizes)):
+        annotations.append(f"{label}")
+    plt.legend(patches, annotations, loc="best", bbox_to_anchor=(0.90, 0.5))
 
     ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
     # plt.title('Pourcentages des émotions')
