@@ -194,14 +194,6 @@ def analyze_engagement(csv_file):
 
     return recommendations
 
-def Get_images():
-    cur = mysql.connection.cursor()
-    cur.execute("SELECT image_path FROM session_image")
-    images = cur.fetchall()
-    cur.close()
-    
-
-
 # Example usage
 recommendations = analyze_engagement('merged_output.csv')
 for recommendation in recommendations:
